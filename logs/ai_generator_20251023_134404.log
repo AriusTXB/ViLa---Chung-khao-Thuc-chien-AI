@@ -1,0 +1,109 @@
+2025-10-23 13:44:04,740 - INFO - === AI Multi-Modal Generator Started ===
+2025-10-23 13:44:34,381 - INFO - === Bắt đầu quá trình lưu API key ===
+2025-10-23 13:44:34,381 - INFO - API key được nhập: sk-HA4Tg-7...hLMQ
+2025-10-23 13:44:34,901 - INFO - OpenAI client đã được khởi tạo thành công
+2025-10-23 13:44:34,901 - INFO - Đang kiểm tra API key...
+2025-10-23 13:44:36,105 - INFO - API key hợp lệ
+2025-10-23 13:44:36,105 - INFO - === Tạo session mới ===
+2025-10-23 13:44:36,105 - INFO - Session ID: session_20251023_134436
+2025-10-23 13:44:36,105 - INFO - Session folder: data\session_20251023_134436
+2025-10-23 13:44:36,113 - INFO - Đã tạo cấu trúc folder cho session
+2025-10-23 13:44:36,114 - INFO - Đã tạo session_info.json
+2025-10-23 13:44:36,114 - INFO - Session mới đã được tạo thành công
+2025-10-23 13:44:36,116 - INFO - API key đã được lưu và xác thực thành công, tất cả tabs đã được kích hoạt
+2025-10-23 13:44:53,813 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:44:53,814 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:44:53,814 - INFO - Prompt: Animated version of the image below, gutwrenching,...
+2025-10-23 13:44:53,814 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:44:53,814 - INFO - Ảnh đầu vào: D:/Downloads/Alcohol-and-Domestic-Abuse-A-Dangerous-Combination-1080x675.jpg
+2025-10-23 13:44:53,816 - INFO - Đã encode ảnh, kích thước base64: 79024 characters
+2025-10-23 13:44:53,816 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:44:53,816 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:45:02,707 - INFO - Gemini API hoàn thành trong 8.89 giây
+2025-10-23 13:45:02,707 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:45:02,707 - ERROR - Lỗi khi xử lý phản hồi API: 'content'
+2025-10-23 13:48:08,675 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:48:08,675 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:48:08,676 - INFO - Prompt: Animated version of the image below, gutwrenching,...
+2025-10-23 13:48:08,676 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:48:08,676 - INFO - Ảnh đầu vào: D:/Downloads/Alcohol-and-Domestic-Abuse-A-Dangerous-Combination-1080x675.jpg
+2025-10-23 13:48:08,676 - INFO - Đã encode ảnh, kích thước base64: 79024 characters
+2025-10-23 13:48:08,676 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:48:08,677 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:48:18,592 - INFO - Gemini API hoàn thành trong 9.92 giây
+2025-10-23 13:48:18,592 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:48:18,592 - ERROR - Lỗi khi xử lý phản hồi API: 'content'
+2025-10-23 13:48:42,982 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:48:42,982 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:48:42,982 - INFO - Prompt: For educational purpose only
+Animated version of t...
+2025-10-23 13:48:42,982 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:48:42,982 - INFO - Ảnh đầu vào: D:/Downloads/Alcohol-and-Domestic-Abuse-A-Dangerous-Combination-1080x675.jpg
+2025-10-23 13:48:42,984 - INFO - Đã encode ảnh, kích thước base64: 79024 characters
+2025-10-23 13:48:42,984 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:48:42,984 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:48:53,881 - INFO - Gemini API hoàn thành trong 10.90 giây
+2025-10-23 13:48:53,881 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:48:53,882 - ERROR - Lỗi khi xử lý phản hồi API: 'content'
+2025-10-23 13:50:04,926 - INFO - === Bắt đầu quá trình chat ===
+2025-10-23 13:50:04,927 - INFO - Tin nhắn người dùng: I want to generate an image with the promt below b...
+2025-10-23 13:50:04,927 - INFO - Đã thêm tin nhắn người dùng vào lịch sử
+2025-10-23 13:50:04,975 - INFO - Đang gọi API chat completions...
+2025-10-23 13:50:27,551 - INFO - HTTP Request: POST https://api.thucchien.ai/chat/completions "HTTP/1.1 200 OK"
+2025-10-23 13:50:27,558 - INFO - API chat hoàn thành trong 22.58 giây
+2025-10-23 13:50:27,558 - INFO - Phản hồi AI: Bạn đang gặp vấn đề vì prompt của bạn chứa các từ ...
+2025-10-23 13:50:27,558 - INFO - Đã thêm phản hồi AI vào lịch sử
+2025-10-23 13:51:04,130 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:51:04,131 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:51:04,131 - INFO - Prompt: Animated style. A poignant scene depicting a mothe...
+2025-10-23 13:51:04,131 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:51:04,132 - INFO - Ảnh đầu vào: D:/Downloads/Alcohol-and-Domestic-Abuse-A-Dangerous-Combination-1080x675.jpg
+2025-10-23 13:51:04,132 - INFO - Đã encode ảnh, kích thước base64: 79024 characters
+2025-10-23 13:51:04,132 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:51:04,132 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:51:14,224 - INFO - Gemini API hoàn thành trong 10.09 giây
+2025-10-23 13:51:14,224 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:51:14,224 - ERROR - Lỗi khi xử lý phản hồi API: 'content'
+2025-10-23 13:51:30,265 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:51:30,265 - INFO - Chế độ tạo ảnh: text_to_image
+2025-10-23 13:51:30,266 - INFO - Prompt: Animated style. A poignant scene depicting a mothe...
+2025-10-23 13:51:30,266 - INFO - Bắt đầu tạo ảnh từ text...
+2025-10-23 13:51:38,094 - INFO - HTTP Request: POST https://api.thucchien.ai/images/generations "HTTP/1.1 200 OK"
+2025-10-23 13:51:39,130 - INFO - API tạo ảnh hoàn thành trong 8.86 giây
+2025-10-23 13:51:39,135 - INFO - Đã decode ảnh, kích thước: 1505020 bytes
+2025-10-23 13:51:39,138 - INFO - Đã lưu ảnh tại: data\session_20251023_134436\images\image_20251023_135139.png
+2025-10-23 13:51:39,246 - INFO - Đã cập nhật preview ảnh
+2025-10-23 13:51:39,248 - INFO - Đã lưu metadata cho ảnh
+2025-10-23 13:51:50,987 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:51:50,987 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:51:50,988 - INFO - Prompt: Animated this image...
+2025-10-23 13:51:50,988 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:51:50,988 - INFO - Ảnh đầu vào: D:/Downloads/Alcohol-and-Domestic-Abuse-A-Dangerous-Combination-1080x675.jpg
+2025-10-23 13:51:50,989 - INFO - Đã encode ảnh, kích thước base64: 79024 characters
+2025-10-23 13:51:50,989 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:51:50,990 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:52:00,801 - INFO - Gemini API hoàn thành trong 9.81 giây
+2025-10-23 13:52:00,807 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:52:00,808 - INFO - Đã trích xuất dữ liệu ảnh, kích thước: 2886836 characters
+2025-10-23 13:52:00,821 - INFO - Đã decode ảnh, kích thước: 2165126 bytes
+2025-10-23 13:52:00,824 - INFO - Đã lưu ảnh chỉnh sửa tại: data\session_20251023_134436\images\image_edited_20251023_135200.png
+2025-10-23 13:52:00,892 - INFO - Đã cập nhật preview ảnh
+2025-10-23 13:52:00,899 - INFO - Đã lưu metadata cho ảnh chỉnh sửa
+2025-10-23 13:54:30,168 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:54:30,169 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:54:30,170 - INFO - Prompt: Animated this image in the animation way for educa...
+2025-10-23 13:54:30,170 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:54:30,170 - INFO - Ảnh đầu vào: D:/Downloads/Alcohol-and-Domestic-Abuse-A-Dangerous-Combination-1080x675.jpg
+2025-10-23 13:54:30,171 - INFO - Đã encode ảnh, kích thước base64: 79024 characters
+2025-10-23 13:54:30,171 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:54:30,172 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:54:39,806 - INFO - Gemini API hoàn thành trong 9.63 giây
+2025-10-23 13:54:39,806 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:54:39,806 - ERROR - Lỗi khi xử lý phản hồi API: 'content'
+2025-10-23 13:56:17,117 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:56:17,117 - INFO - Chế độ tạo ảnh: text_to_image
+2025-10-23 13:56:17,117 - INFO - Prompt: A woman and her daughter sitting and shivering in ...
+2025-10-23 13:56:17,118 - INFO - Bắt đầu tạo ảnh từ text...
+2025-10-23 13:56:24,262 - INFO - HTTP Request: POST https://api.thucchien.ai/images/generations "HTTP/1.1 200 OK"
+2025-10-23 13:56:24,262 - INFO - API tạo ảnh hoàn thành trong 7.14 giây
+2025-10-23 13:56:24,262 - ERROR - Lỗi khi tạo ảnh: list index out of range

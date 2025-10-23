@@ -1,0 +1,129 @@
+2025-10-23 13:02:01,550 - INFO - === AI Multi-Modal Generator Started ===
+2025-10-23 13:02:24,600 - INFO - === Bắt đầu quá trình lưu API key ===
+2025-10-23 13:02:24,601 - INFO - API key được nhập: sk-HA4Tg-7...hLMQ
+2025-10-23 13:02:25,155 - INFO - OpenAI client đã được khởi tạo thành công
+2025-10-23 13:02:25,155 - INFO - Đang kiểm tra API key...
+2025-10-23 13:02:26,303 - INFO - API key hợp lệ
+2025-10-23 13:02:26,305 - INFO - === Tạo session mới ===
+2025-10-23 13:02:26,305 - INFO - Session ID: session_20251023_130226
+2025-10-23 13:02:26,305 - INFO - Session folder: data\session_20251023_130226
+2025-10-23 13:02:26,308 - INFO - Đã tạo cấu trúc folder cho session
+2025-10-23 13:02:26,309 - INFO - Đã tạo session_info.json
+2025-10-23 13:02:26,309 - INFO - Session mới đã được tạo thành công
+2025-10-23 13:02:26,311 - INFO - API key đã được lưu và xác thực thành công, tất cả tabs đã được kích hoạt
+2025-10-23 13:02:40,096 - INFO - === Bắt đầu quá trình lưu API key ===
+2025-10-23 13:02:40,097 - INFO - API key được nhập: sk-HA4Tg-7...hLMQ
+2025-10-23 13:02:40,649 - INFO - OpenAI client đã được khởi tạo thành công
+2025-10-23 13:02:40,650 - INFO - Đang kiểm tra API key...
+2025-10-23 13:02:41,017 - INFO - API key hợp lệ
+2025-10-23 13:02:41,018 - INFO - === Tạo session mới ===
+2025-10-23 13:02:41,018 - INFO - Session ID: session_20251023_130241
+2025-10-23 13:02:41,018 - INFO - Session folder: data\session_20251023_130241
+2025-10-23 13:02:41,021 - INFO - Đã tạo cấu trúc folder cho session
+2025-10-23 13:02:41,023 - INFO - Đã tạo session_info.json
+2025-10-23 13:02:41,023 - INFO - Session mới đã được tạo thành công
+2025-10-23 13:02:41,025 - INFO - API key đã được lưu và xác thực thành công, tất cả tabs đã được kích hoạt
+2025-10-23 13:03:11,009 - INFO - === Bắt đầu quá trình chat ===
+2025-10-23 13:03:11,009 - INFO - Tin nhắn người dùng: Yêu cầu của đề thi:
+Thiết kế một tờ gấp (flyer) A4...
+2025-10-23 13:03:11,009 - INFO - Đã thêm tin nhắn người dùng vào lịch sử
+2025-10-23 13:03:11,050 - INFO - Đang gọi API chat completions...
+2025-10-23 13:03:57,225 - INFO - HTTP Request: POST https://api.thucchien.ai/chat/completions "HTTP/1.1 200 OK"
+2025-10-23 13:03:57,308 - INFO - API chat hoàn thành trong 46.26 giây
+2025-10-23 13:03:57,308 - INFO - Phản hồi AI: Tuyệt vời! Đây là một yêu cầu rất ý nghĩa và cần t...
+2025-10-23 13:03:57,309 - INFO - Đã thêm phản hồi AI vào lịch sử
+2025-10-23 13:06:37,293 - INFO - === Bắt đầu quá trình chat ===
+2025-10-23 13:06:37,293 - INFO - Tin nhắn người dùng: chỉ đưa tôi nội dung theo yêu cầu đã cho...
+2025-10-23 13:06:37,293 - INFO - Đã thêm tin nhắn người dùng vào lịch sử
+2025-10-23 13:06:37,326 - INFO - Đang gọi API chat completions...
+2025-10-23 13:07:02,182 - INFO - HTTP Request: POST https://api.thucchien.ai/chat/completions "HTTP/1.1 200 OK"
+2025-10-23 13:07:02,184 - INFO - API chat hoàn thành trong 24.86 giây
+2025-10-23 13:07:02,185 - INFO - Phản hồi AI: Tuyệt vời! Đây là nội dung chi tiết cho tờ gấp A4 ...
+2025-10-23 13:07:02,185 - INFO - Đã thêm phản hồi AI vào lịch sử
+2025-10-23 13:12:38,013 - INFO - === Bắt đầu quá trình chat ===
+2025-10-23 13:12:38,013 - INFO - Tin nhắn người dùng: mặt sau là 1 tấm hình liền mạch, nói về hại bản th...
+2025-10-23 13:12:38,013 - INFO - Đã thêm tin nhắn người dùng vào lịch sử
+2025-10-23 13:12:38,062 - INFO - Đang gọi API chat completions...
+2025-10-23 13:13:12,911 - INFO - HTTP Request: POST https://api.thucchien.ai/chat/completions "HTTP/1.1 200 OK"
+2025-10-23 13:13:12,929 - INFO - API chat hoàn thành trong 34.87 giây
+2025-10-23 13:13:12,929 - INFO - Phản hồi AI: Tuyệt vời! Yêu cầu mới về bố cục này sẽ tạo nên mộ...
+2025-10-23 13:13:12,930 - INFO - Đã thêm phản hồi AI vào lịch sử
+2025-10-23 13:17:36,499 - INFO - === Bắt đầu quá trình chat ===
+2025-10-23 13:17:36,499 - INFO - Tin nhắn người dùng: sinh prompt chi tiết cho 3 nội dung này
+Ảnh 1: Tác...
+2025-10-23 13:17:36,501 - INFO - Đã thêm tin nhắn người dùng vào lịch sử
+2025-10-23 13:17:36,513 - INFO - Đang gọi API chat completions...
+2025-10-23 13:18:08,006 - INFO - HTTP Request: POST https://api.thucchien.ai/chat/completions "HTTP/1.1 200 OK"
+2025-10-23 13:18:08,008 - INFO - API chat hoàn thành trong 31.50 giây
+2025-10-23 13:18:08,008 - INFO - Phản hồi AI: Tuyệt vời! Với bố cục mới này, việc sử dụng hình ả...
+2025-10-23 13:18:08,008 - INFO - Đã thêm phản hồi AI vào lịch sử
+2025-10-23 13:18:40,086 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:18:40,088 - INFO - Chế độ tạo ảnh: text_to_image
+2025-10-23 13:18:40,088 - INFO - Prompt: "A powerful, emotional illustration depicting the ...
+2025-10-23 13:18:40,088 - INFO - Bắt đầu tạo ảnh từ text...
+2025-10-23 13:18:49,064 - INFO - HTTP Request: POST https://api.thucchien.ai/images/generations "HTTP/1.1 200 OK"
+2025-10-23 13:18:50,186 - INFO - API tạo ảnh hoàn thành trong 10.10 giây
+2025-10-23 13:18:50,193 - INFO - Đã decode ảnh, kích thước: 1434435 bytes
+2025-10-23 13:18:50,195 - INFO - Đã lưu ảnh tại: data\session_20251023_130241\images\image_20251023_131850.png
+2025-10-23 13:18:50,353 - INFO - Đã cập nhật preview ảnh
+2025-10-23 13:18:50,354 - INFO - Đã lưu metadata cho ảnh
+2025-10-23 13:28:27,259 - INFO - === Bắt đầu quá trình chat ===
+2025-10-23 13:28:27,259 - INFO - Tin nhắn người dùng: prompt laị sao cho người dùng hình ảnh có:
+- Backg...
+2025-10-23 13:28:27,259 - INFO - Đã thêm tin nhắn người dùng vào lịch sử
+2025-10-23 13:28:27,282 - INFO - Đang gọi API chat completions...
+2025-10-23 13:29:03,476 - INFO - HTTP Request: POST https://api.thucchien.ai/chat/completions "HTTP/1.1 200 OK"
+2025-10-23 13:29:03,477 - INFO - API chat hoàn thành trong 36.19 giây
+2025-10-23 13:29:03,478 - INFO - Phản hồi AI: Được! Với yêu cầu cụ thể này, chúng ta sẽ tạo ra n...
+2025-10-23 13:29:03,478 - INFO - Đã thêm phản hồi AI vào lịch sử
+2025-10-23 13:29:40,528 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:29:40,528 - INFO - Chế độ tạo ảnh: text_to_image
+2025-10-23 13:29:40,528 - INFO - Prompt: "An extremely raw, unflinching, and impactful prop...
+2025-10-23 13:29:40,528 - INFO - Bắt đầu tạo ảnh từ text...
+2025-10-23 13:29:48,799 - INFO - HTTP Request: POST https://api.thucchien.ai/images/generations "HTTP/1.1 200 OK"
+2025-10-23 13:29:49,471 - INFO - API tạo ảnh hoàn thành trong 8.94 giây
+2025-10-23 13:29:49,476 - INFO - Đã decode ảnh, kích thước: 1539197 bytes
+2025-10-23 13:29:49,478 - INFO - Đã lưu ảnh tại: data\session_20251023_130241\images\image_20251023_132949.png
+2025-10-23 13:29:49,551 - INFO - Đã cập nhật preview ảnh
+2025-10-23 13:29:49,552 - INFO - Đã lưu metadata cho ảnh
+2025-10-23 13:34:03,867 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:34:03,868 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:34:03,868 - INFO - Prompt: "An extremely raw, unflinching, and impactful prop...
+2025-10-23 13:34:03,868 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:34:03,868 - INFO - Ảnh đầu vào: D:/Image for comp/1.png
+2025-10-23 13:34:03,879 - INFO - Đã encode ảnh, kích thước base64: 2154088 characters
+2025-10-23 13:34:03,879 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:34:03,880 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:34:18,236 - INFO - Gemini API hoàn thành trong 14.36 giây
+2025-10-23 13:34:18,241 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:34:18,241 - INFO - Đã trích xuất dữ liệu ảnh, kích thước: 1932792 characters
+2025-10-23 13:34:18,248 - INFO - Đã decode ảnh, kích thước: 1449592 bytes
+2025-10-23 13:34:18,251 - INFO - Đã lưu ảnh chỉnh sửa tại: data\session_20251023_130241\images\image_edited_20251023_133418.png
+2025-10-23 13:34:18,308 - INFO - Đã cập nhật preview ảnh
+2025-10-23 13:34:18,309 - INFO - Đã lưu metadata cho ảnh chỉnh sửa
+2025-10-23 13:38:55,868 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:38:55,868 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:38:55,868 - INFO - Prompt: "An emotionally charged and impactful propaganda p...
+2025-10-23 13:38:55,868 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:38:55,868 - INFO - Ảnh đầu vào: D:/Image for comp/2.png
+2025-10-23 13:38:55,874 - INFO - Đã encode ảnh, kích thước base64: 1175076 characters
+2025-10-23 13:38:55,875 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:38:55,875 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:39:08,344 - INFO - Gemini API hoàn thành trong 12.47 giây
+2025-10-23 13:39:08,352 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:39:08,352 - INFO - Đã trích xuất dữ liệu ảnh, kích thước: 2100972 characters
+2025-10-23 13:39:08,363 - INFO - Đã decode ảnh, kích thước: 1575727 bytes
+2025-10-23 13:39:08,366 - INFO - Đã lưu ảnh chỉnh sửa tại: data\session_20251023_130241\images\image_edited_20251023_133908.png
+2025-10-23 13:39:08,445 - INFO - Đã cập nhật preview ảnh
+2025-10-23 13:39:08,445 - INFO - Đã lưu metadata cho ảnh chỉnh sửa
+2025-10-23 13:43:24,904 - INFO - === Bắt đầu quá trình tạo ảnh ===
+2025-10-23 13:43:24,905 - INFO - Chế độ tạo ảnh: image_to_image
+2025-10-23 13:43:24,905 - INFO - Prompt: Animated version of the image below, gutwrenching,...
+2025-10-23 13:43:24,905 - INFO - Bắt đầu tạo ảnh từ ảnh có sẵn...
+2025-10-23 13:43:24,906 - INFO - Ảnh đầu vào: D:/Downloads/Alcohol-and-Domestic-Abuse-A-Dangerous-Combination-1080x675.jpg
+2025-10-23 13:43:24,924 - INFO - Đã encode ảnh, kích thước base64: 79024 characters
+2025-10-23 13:43:24,938 - INFO - Đang gọi Gemini API cho image-to-image...
+2025-10-23 13:43:24,938 - INFO - Đang gửi request đến Gemini API...
+2025-10-23 13:43:33,746 - INFO - Gemini API hoàn thành trong 8.81 giây
+2025-10-23 13:43:33,746 - INFO - Đã nhận được phản hồi từ Gemini API
+2025-10-23 13:43:33,747 - ERROR - Lỗi khi xử lý phản hồi API: 'content'
