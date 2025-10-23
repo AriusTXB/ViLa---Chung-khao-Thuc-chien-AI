@@ -519,7 +519,7 @@ Hướng dẫn sử dụng:
                 filepath = os.path.join(self.session_folder, "images", filename)
                 
                 with open(filepath, "wb") as f:
-                    f.write(img_data)
+                    f.write(image_data)
                     
                 self.logger.info(f"Đã lưu ảnh tại: {filepath}")
                 
@@ -950,11 +950,11 @@ Hướng dẫn sử dụng:
         messagebox.showinfo("Thành công", f"Video đã được tải và lưu tại: {filepath}")
         
     def generate_tts(self):
-        """Tạo text-to-speech"""
+        """Tạo text-to-speech với Gemini API"""
         self.logger.info("=== Bắt đầu quá trình tạo TTS ===")
         
-        if not self.client:
-            self.logger.warning("Client chưa được khởi tạo, yêu cầu nhập API key")
+        if not self.api_key:
+            self.logger.warning("API key chưa được khởi tạo, yêu cầu nhập API key")
             messagebox.showerror("Lỗi", "Vui lòng nhập API key trước!")
             return
             
@@ -969,32 +969,63 @@ Hướng dẫn sử dụng:
         self.logger.info(f"Văn bản: {text[:50]}...")
         
         try:
-            self.logger.info("Đang gọi API TTS...")
+            self.logger.info("Đang gọi Gemini API TTS...")
             start_time = time.time()
             
-            response = self.client.audio.speech.create(
-                model="gemini-2.5-flash-preview-tts",
-                input=text,
-                voice=voice
-            )
+            # Gọi Gemini API theo đúng tài liệu
+            url = "https://api.thucchien.ai/gemini/v1beta/models/gemini-2.5-flash-preview-tts:generateContent"
+            
+            headers = {
+                "x-goog-api-key": self.api_key,
+                "Content-Type": "application/json"
+            }
+            
+            payload = {
+                "contents": [{
+                    "parts": [
+                        {"text": text}
+                    ]
+                }],
+                "generationConfig": {
+                    "responseModalities": ["AUDIO"],
+                    "speechConfig": {
+                        "voiceConfig": {
+                            "prebuiltVoiceConfig": {
+                                "voiceName": voice
+                            }
+                        }
+                    }
+                }
+            }
+            
+            response = requests.post(url, headers=headers, json=payload)
             
             end_time = time.time()
             self.logger.info(f"API TTS hoàn thành trong {end_time - start_time:.2f} giây")
             
+            if response.status_code != 200:
+                self.logger.error(f"API error: {response.status_code} - {response.text}")
+                messagebox.showerror("Lỗi", f"API error: {response.status_code}")
+                return
+            
+            # Lấy audio data từ response theo cấu trúc Gemini
+            data = response.json()
+            audio_b64 = data["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
+            audio_data = base64.b64decode(audio_b64)
+            
+            self.logger.info(f"Đã decode audio, kích thước: {len(audio_data)} bytes")
+            
             # Save audio
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"audio_{timestamp}.mp3"
+            filename = f"audio_{timestamp}.wav"
             filepath = os.path.join(self.session_folder, "audio", filename)
             
             self.logger.info(f"Đang lưu audio tại: {filepath}")
-            total_size = 0
+            
             with open(filepath, "wb") as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    if chunk:
-                        f.write(chunk)
-                        total_size += len(chunk)
+                f.write(audio_data)
                         
-            self.logger.info(f"Đã lưu audio, kích thước: {total_size} bytes")
+            self.logger.info(f"Đã lưu audio, kích thước: {len(audio_data)} bytes")
                         
             # Save metadata
             metadata = {
@@ -1002,7 +1033,7 @@ Hướng dẫn sử dụng:
                 "voice": voice,
                 "filename": filename,
                 "created_at": datetime.now().isoformat(),
-                "file_size": total_size
+                "file_size": len(audio_data)
             }
             
             with open(os.path.join(self.session_folder, "audio", f"{filename}.json"), "w", encoding="utf-8") as f:
